@@ -1,7 +1,6 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
-using UnityEngine.UI;  // Make sure you include this if you're handling UI buttons
-
+using UnityEngine.UI;  
 public class MainMenu : MonoBehaviour
 {
     // Declare buttons for the UI
@@ -52,7 +51,7 @@ public class MainMenu : MonoBehaviour
     {
         // Logic to open the admin menu
         Debug.Log("Opening Admin Menu...");
-        // Example: SceneManager.LoadScene("AdminScene");
+        SceneManager.LoadScene("AdminScene");
     }
 
     // Function to open customization options
