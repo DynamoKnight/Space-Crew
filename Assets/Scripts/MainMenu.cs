@@ -27,9 +27,8 @@ public class MainMenu : MonoBehaviour
     }
 
 
-   private void playGame()
+    private void playGame()
     {
-        // Load your main game scene, assuming it's called "GameScene"
         SceneManager.LoadScene("Level1");
     }
 
@@ -43,14 +42,12 @@ public class MainMenu : MonoBehaviour
     // Function to show instructions
     private void openInstructions()
     {
-        // Example: SceneManager.LoadScene("InstructionsScene");
+        SceneManager.LoadScene("InstructionsScene");
     }
 
     // Function to open admin menu
     private void openAdmin()
     {
-        // Logic to open the admin menu
-        Debug.Log("Opening Admin Menu...");
         SceneManager.LoadScene("AdminScene");
     }
 
