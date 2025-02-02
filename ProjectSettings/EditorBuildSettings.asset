@@ -7,6 +7,21 @@ EditorBuildSettings:
   m_Scenes:
   - enabled: 1
     path: Assets/Scenes/MenuScreen.unity
+    guid: df8bbb7a3d630ca48a64d1933594cdd2
+  - enabled: 0
+    path: Assets/Scenes/MenuScreen (Old).unity
     guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/LevelSelection.unity
+    guid: 0c8e50e7ed0146f4280fb1e957463a36
+  - enabled: 1
+    path: Assets/Scenes/CustomizationScreen.unity
+    guid: 56398af88c647a940a8f9e4a68d62aad
+  - enabled: 1
+    path: Assets/Scenes/Pluto-Space.unity
+    guid: f27b8b9ec1710c440b8ab52a939f2e15
+  - enabled: 1
+    path: Assets/Scenes/Pluto-Survival.unity
+    guid: 9f69ebdbe7fba534c883a862369ce75c
   m_configObjects: {}
   m_UseUCBPForAssetBundles: 0

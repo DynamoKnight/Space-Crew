@@ -4,74 +4,80 @@ using UnityEngine.UI;
 public class MainMenu : MonoBehaviour
 {
     // Declare buttons for the UI
-    public Button playButton;
-    public Button settingsButton;
-    public Button instructionsButton;
-    public Button adminButton;
-    public Button customizationButton;
-    public Button statsButton;
-    public Button creditsButton;
-    public Button exitButton;
+    private Button playButton;
+    private Button settingsButton;
+    private Button instructionsButton;
+    private Button adminButton;
+    private Button customizationButton;
+    private Button statsButton;
+    private Button creditsButton;
+    private Button exitButton;
 
-    void Start()
-    {
+    [SerializeField] private GameObject settingsMenu;
+    private Button backButton;
+
+    void Start(){
+        // Gets the button based on position
+        playButton = transform.GetChild(1).GetComponent<Button>();
+        settingsButton = transform.GetChild(2).GetComponent<Button>();
+        statsButton = transform.GetChild(3).GetComponent<Button>();
+        exitButton = transform.GetChild(4).GetComponent<Button>();
+        // Settings menu
+        backButton = settingsMenu.transform.GetChild(1).GetComponent<Button>();
+
         // Add listeners to buttons, calling the appropriate methods
-        playButton.onClick.AddListener(playGame);
-        settingsButton.onClick.AddListener(openSettings);
-        instructionsButton.onClick.AddListener(openInstructions);
+        playButton.onClick.AddListener(PlayGame);   
+        settingsButton.onClick.AddListener(ToggleSettings);
+        statsButton.onClick.AddListener(OpenStats);
+        exitButton.onClick.AddListener(ExitGame);
+        /*instructionsButton.onClick.AddListener(openInstructions);
         adminButton.onClick.AddListener(openAdmin);
         customizationButton.onClick.AddListener(openCustomization);
-        statsButton.onClick.AddListener(openStats);
-        creditsButton.onClick.AddListener(openCredits);
-        exitButton.onClick.AddListener(exitGame);
+        creditsButton.onClick.AddListener(openCredits);*/
+        backButton.onClick.AddListener(ToggleSettings);
+        
     }
 
-
-    private void playGame()
-    {
-        SceneManager.LoadScene("Level1");
+    // Goes to level selection screen
+    public void PlayGame(){
+        SceneManager.LoadScene("LevelSelection");
     }
 
-    // Function to open settings
-    private void openSettings()
-    {
-        //scene not availible yet but... we will have to make it.
-        SceneManager.LoadScene("SettingsScene");
+    // Function to toggle settings menu
+    public void ToggleSettings(){
+        settingsMenu.SetActive(!settingsMenu.activeSelf);
     }
 
     // Function to show instructions
-    private void openInstructions()
-    {
+    public void OpenInstructions(){
         SceneManager.LoadScene("InstructionsScene");
     }
 
     // Function to open admin menu
-    private void openAdmin()
+    public void OpenAdmin()
     {
         SceneManager.LoadScene("AdminScene");
     }
 
     // Function to open customization options
-    private void openCustomization()
+    public void OpenCustomization()
     {
         SceneManager.LoadScene("CustomizationScene");
     }
 
     // Function to open stats menu
-    private void openStats()
-    {
-        SceneManager.LoadScene("StatsScene");
+    public void OpenStats(){
+        // Will have to make code
     }
 
     // Function to open credits menu
-    private void openCredits()
+    public void OpenCredits()
     {
         SceneManager.LoadScene("CreditsScene");
     }
 
     // Function to exit the game
-    private void exitGame()
-    {
+    public void ExitGame(){
         Application.Quit();
     }
 
