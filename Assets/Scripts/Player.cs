@@ -51,6 +51,7 @@ public class Player : MonoBehaviour
         playerInput = GetComponent<PlayerInput>();
         // Gets the specific action from the list
         moveAction = playerInput.actions["Move"];
+        
     }
 
     // Start is called before the first frame update
