@@ -9,6 +9,10 @@ public class PlayerConstructer
     public string username;
     // Color of player
     public Color color;
+    //Shirt of player
+    public Sprite Shirt;
+    //Face of player
+    public Sprite Head;
 
     // Constructor of constructor lol
     public PlayerConstructer(bool enabled, string username, Color color){

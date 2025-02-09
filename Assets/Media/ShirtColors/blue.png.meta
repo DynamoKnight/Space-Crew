@@ -145,7 +145,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: blueshirt_0
+      name: blue_0
       rect:
         serializedVersion: 2
         x: 1
@@ -167,7 +167,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: blueshirt_1
+      name: blue_1
       rect:
         serializedVersion: 2
         x: 22
@@ -189,7 +189,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: blueshirt_2
+      name: blue_2
       rect:
         serializedVersion: 2
         x: 43
@@ -211,7 +211,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: blueshirt_3
+      name: blue_3
       rect:
         serializedVersion: 2
         x: 64
@@ -233,7 +233,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: blueshirt_4
+      name: blue_4
       rect:
         serializedVersion: 2
         x: 85
@@ -255,7 +255,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: blueshirt_5
+      name: blue_5
       rect:
         serializedVersion: 2
         x: 106
@@ -277,7 +277,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: blueshirt_6
+      name: blue_6
       rect:
         serializedVersion: 2
         x: 1
@@ -299,7 +299,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: blueshirt_7
+      name: blue_7
       rect:
         serializedVersion: 2
         x: 29
@@ -321,7 +321,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: blueshirt_8
+      name: blue_8
       rect:
         serializedVersion: 2
         x: 51
@@ -343,7 +343,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: blueshirt_9
+      name: blue_9
       rect:
         serializedVersion: 2
         x: 77
@@ -365,7 +365,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: blueshirt_10
+      name: blue_10
       rect:
         serializedVersion: 2
         x: 102
@@ -387,7 +387,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: blueshirt_11
+      name: blue_11
       rect:
         serializedVersion: 2
         x: 1
@@ -409,7 +409,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: blueshirt_12
+      name: blue_12
       rect:
         serializedVersion: 2
         x: 29
@@ -431,7 +431,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: blueshirt_13
+      name: blue_13
       rect:
         serializedVersion: 2
         x: 51
@@ -453,7 +453,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: blueshirt_14
+      name: blue_14
       rect:
         serializedVersion: 2
         x: 76
@@ -475,7 +475,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: blueshirt_15
+      name: blue_15
       rect:
         serializedVersion: 2
         x: 105
@@ -510,22 +510,22 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      blueshirt_0: -6336812090102057917
-      blueshirt_1: 2863611111474087740
-      blueshirt_10: 43425641510837891
-      blueshirt_11: -8002341305533014169
-      blueshirt_12: -7124635415320294725
-      blueshirt_13: -5374165616675341586
-      blueshirt_14: 9009471333234849557
-      blueshirt_15: 3311822766902958952
-      blueshirt_2: 1199717548091242673
-      blueshirt_3: 163683447232509186
-      blueshirt_4: 8238714218514629858
-      blueshirt_5: 3271908733496285192
-      blueshirt_6: 3559464531692474024
-      blueshirt_7: 958127360756755004
-      blueshirt_8: -8001821749300117431
-      blueshirt_9: -7323347362833084563
+      blue_0: -6336812090102057917
+      blue_1: 2863611111474087740
+      blue_10: 43425641510837891
+      blue_11: -8002341305533014169
+      blue_12: -7124635415320294725
+      blue_13: -5374165616675341586
+      blue_14: 9009471333234849557
+      blue_15: 3311822766902958952
+      blue_2: 1199717548091242673
+      blue_3: 163683447232509186
+      blue_4: 8238714218514629858
+      blue_5: 3271908733496285192
+      blue_6: 3559464531692474024
+      blue_7: 958127360756755004
+      blue_8: -8001821749300117431
+      blue_9: -7323347362833084563
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
