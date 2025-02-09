@@ -8575,6 +8575,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: StartScreen
       objectReference: {fileID: 0}
+    - target: {fileID: 7042854611944956828, guid: 708eb2fffdeba1148bf39154398870cd, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8289735354339131596, guid: 708eb2fffdeba1148bf39154398870cd, type: 3}
       propertyPath: m_fontAsset
       value: 
