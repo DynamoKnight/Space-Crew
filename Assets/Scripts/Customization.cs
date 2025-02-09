@@ -68,7 +68,8 @@ public class Customization : MonoBehaviour
             colorImage.color = playerConstructer.color;
             // Color toggler button
             colorToggle.onClick.AddListener(() => ToggleColor(playerConstructer, playerImage, colorImage));
-
+            
+            //listeners for shirt/face scroll buttons
             RightShirt.onClick.AddListener(() => ShirtRight(playerConstructer, ShirtImage));
             LeftShirt.onClick.AddListener(() => ShirtLeft(playerConstructer, ShirtImage));
             RightHead.onClick.AddListener(() => HeadRight(playerConstructer, HeadImage));
