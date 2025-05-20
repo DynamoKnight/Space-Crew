@@ -5170,8 +5170,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b6ca916c2cce10f4787401d14d6c71e0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startButton: {fileID: 1327812283}
-  backButton: {fileID: 1179365717}
+  startBtn: {fileID: 1327812283}
+  backBtn: {fileID: 1179365717}
   Shirts:
   - {fileID: -9182177788924653191, guid: 3abcb8bd95ca46b4cb50fb93793f7c5e, type: 3}
   - {fileID: 2063826154672905881, guid: b29ba44b18631bb48932aee014fd9715, type: 3}

@@ -83,18 +83,20 @@ public class LevelManager : MonoBehaviour
     public static void ReturnHome(){
         SceneManager.LoadScene("MenuScreen");
     }
-    // Spanws the players
+
+    // Spawns the players
     public void StartLevel(){
         if (spawnPoints){        
             for (int i = 0; i < Stats.Players.Count; i++){
-                PlayerConstructer playerConstructer = Stats.Players[i];
+                // Creates players based on their playerConstructor
+                PlayerConstructor playerConstructor = Stats.Players[i];
                 Transform spawnPoint = spawnPoints.transform.GetChild(i);
-                if (playerConstructer.enabled){
+                if (playerConstructor.enabled){
                     GameObject player = Instantiate(playerPrefab, spawnPoint.position, spawnPoint.rotation);
                     // Constructs player
-                    player.GetComponent<CoopPlayer>().ConstructPlayer(playerConstructer);
+                    player.GetComponent<Player>().ConstructPlayer(playerConstructor);
                     // Sets the action map to the proper player
-                    player.GetComponent<CoopPlayer>().SwitchActionMap(i+1);
+                    player.GetComponent<Player>().SwitchActionMap(i+1);
                     
                 }
             }
@@ -122,6 +124,15 @@ public class LevelManager : MonoBehaviour
             return "Level not Updated.";
         }
         return "No new level.";
+    }
+
+    // Allows level to be finished in Inspector
+    [ContextMenu("Auto-Complete Level")]
+    public void FinishLevel(){
+        levelComplete = true;
+        UpdateLevel();
+        GameOver();
+
     }
 
 

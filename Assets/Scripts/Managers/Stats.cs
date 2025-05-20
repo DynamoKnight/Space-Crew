@@ -1,6 +1,5 @@
 using System.Collections.Generic;
 using System.Linq;
-using Microsoft.Unity.VisualStudio.Editor;
 using UnityEngine;
 
 // Keeps track of all saved variables
@@ -90,11 +89,11 @@ public static class Stats
     };
 
     // List of players
-    public static List<PlayerConstructer> Players = new(){
-        {new PlayerConstructer(true, "Player 1", Color.white)},
-        {new PlayerConstructer(false, "Player 2", Color.red)},
-        {new PlayerConstructer(false, "Player 3", Color.blue)},
-        {new PlayerConstructer(false, "Player 4", Color.green)}
+    public static List<PlayerConstructor> Players = new(){
+        {new PlayerConstructor(true, "Player 1", Color.white)},
+        {new PlayerConstructor(false, "Player 2", Color.red)},
+        {new PlayerConstructor(false, "Player 3", Color.blue)},
+        {new PlayerConstructor(false, "Player 4", Color.green)}
     };
 
     // List of available colors

@@ -1,7 +1,7 @@
 
 using UnityEngine;
 
-public class PlayerConstructer
+public class PlayerConstructor
 {
     // Indicates if the player is playing
     public bool enabled;
@@ -9,13 +9,32 @@ public class PlayerConstructer
     public string username;
     // Color of player
     public Color color;
-    //Shirt of player
+    // Shirt of player
     public Sprite Shirt;
-    //Face of player
+    // Face of player
     public Sprite Head;
 
+    public Sprite[] idleUpHeadSprites;
+    public Sprite[] idleDownHeadSprites;
+    public Sprite[] idleLeftHeadSprites;
+    public Sprite[] idleRightHeadSprites;
+    public Sprite[] walkUpHeadSprites;
+    public Sprite[] walkDownHeadSprites;
+    public Sprite[] walkRightHeadSprites;
+    public Sprite[] walkLeftHeadSprites;
+
+    public Sprite[] idleUpShirtSprites;
+    public Sprite[] idleDownShirtSprites;
+    public Sprite[] idleLeftShirtSprites;
+    public Sprite[] idleRightShirtSprites;
+    public Sprite[] walkUpShirtSprites;
+    public Sprite[] walkDownShirtSprites;
+    public Sprite[] walkRightShirtSprites;
+    public Sprite[] walkLeftShirtSprites;
+    
+
     // Constructor of constructor lol
-    public PlayerConstructer(bool enabled, string username, Color color){
+    public PlayerConstructor(bool enabled, string username, Color color){
         this.enabled = enabled;
         this.username = username;
         this.color = color;
